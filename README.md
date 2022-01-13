@@ -2,7 +2,6 @@
 
 This experiment takes a different approach to responsive styling for React Native Web apps who use Server Side Rendering.
 
-
 ## Usage
 
 ### Basic example

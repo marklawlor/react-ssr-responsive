@@ -14,7 +14,6 @@
   },
   "devDependencies": {
     "prettier": "^2.5.1",
-    "resolve": "1.20.0",
     "turbo": "latest"
   },
   "turbo": {
@@ -36,8 +35,11 @@
       }
     }
   },
+  "overrides": {
+    "postcss": "7.0.39"
+  },
   "engines": {
-    "npm": ">=7.0.0",
+    "npm": ">=8.0.0",
     "node": ">=14.0.0"
   }
 }
