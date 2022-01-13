@@ -10,7 +10,7 @@ If you just interested in the code, look at the `ssr-styling` package under `pac
 
 ### Basic example
 
-```
+```jsx
 import { View, Text } from "react-native";
 import { useBreakpointStyles } from "ssr-styling";
 
@@ -40,7 +40,7 @@ export const MyComponent = () => {
 
 ### Complex example
 
-```
+```jsx
 import { View, Text } from "react-native";
 import { useBreakpointStyles } from "ssr-styling";
 
@@ -127,7 +127,7 @@ Solutions like [react-native-responsive-query](https://github.com/intergalactics
 
 You can customise the breakpoints by using the `breakpointProvider`
 
-```
+```jsx
 import { BreakpointProvider } from "ssr-styling";
 
 export const MyComponent = () => {
