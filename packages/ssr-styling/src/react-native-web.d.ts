@@ -1,6 +1,7 @@
 declare module "react-native-web/dist/exports/StyleSheet/styleResolver" {
   export interface OrderedCSSStyleSheet {
     insert(cssText: string, groupValue: number): void;
+    getTextContent(): string;
   }
 
   export default {

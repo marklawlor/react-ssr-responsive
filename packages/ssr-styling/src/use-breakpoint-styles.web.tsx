@@ -1,3 +1,5 @@
+/// <reference path="./react-native-web.d.ts" />
+  
 import { useState } from "react";
 import { useWindowDimensions } from "react-native";
 
