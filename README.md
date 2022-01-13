@@ -4,6 +4,8 @@ This experiment takes a different approach to responsive styling for React Nativ
 
 [DEMO](https://react-ssr-responsive.vercel.app/)
 
+If you just interested in the code, look at the `ssr-styling` package under `packages/`
+
 ## Usage
 
 ### Basic example
