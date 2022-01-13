@@ -1,0 +1,31 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@expo/next-adapter": "3.1.7",
+    "next": "12.0.3",
+    "next-compose-plugins": "^2.2.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-native": "^0.66.4",
+    "react-native-web": "^0.17.5",
+    "resolve": "1.20.0",
+    "ssr-styling": "*"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.37",
+    "@types/react-native": "^0.66.11",
+    "config": "*",
+    "eslint": "7.32.0",
+    "next-transpile-modules": "9.0.0",
+    "tsconfig": "*",
+    "typescript": "^4.5.3"
+  }
+}
