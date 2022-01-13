@@ -2,6 +2,8 @@
 
 This experiment takes a different approach to responsive styling for React Native Web apps who use Server Side Rendering.
 
+[DEMO](https://react-ssr-responsive.vercel.app/)
+
 ## Usage
 
 ### Basic example
@@ -117,7 +119,7 @@ Component styles are rendered using style objects and can be dynamic.
 
 ## How is this different from other solutions
 
-Solutions like (react-native-responsive-query)[https://github.com/intergalacticspacehighway/react-native-responsive-query] write media queries for all styles - even after hydration. This experiment bypasses that logic by defaulting to native behaviour after hydration.
+Solutions like [react-native-responsive-query](https://github.com/intergalacticspacehighway/react-native-responsive-query) write media queries for all styles - even after hydration. This experiment bypasses that logic by defaulting to native behaviour after hydration.
 
 ## Custom Breakpoints
 
