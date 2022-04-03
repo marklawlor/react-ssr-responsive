@@ -1,5 +1,7 @@
 # React SSR Responsive Demo
 
+> This project is archived as I believe there are now better ways to do this. Please checkout which offers breakpoints and many more features using the TailwindCSS style language https://github.com/marklawlor/tailwindcss-react-native
+
 This experiment takes a different approach to responsive styling for React Native Web apps who use Server Side Rendering.
 
 [DEMO](https://react-ssr-responsive.vercel.app/)
